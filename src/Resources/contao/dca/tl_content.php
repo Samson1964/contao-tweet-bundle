@@ -20,7 +20,7 @@ $GLOBALS['TL_DCA']['tl_content']['fields']['tweet_url'] = array
 	'exclude'                 => true,
 	'search'                  => true,
 	'inputType'               => 'text',
-	'eval'                    => array('mandatory'=>true, 'rgxp'=>'url', 'decodeEntities'=>true, 'maxlength'=>255, 'dcaPicker'=>false, 'tl_class'=>'long'),
+	'eval'                    => array('mandatory'=>false, 'rgxp'=>'url', 'decodeEntities'=>true, 'maxlength'=>255, 'dcaPicker'=>false, 'tl_class'=>'long'),
 	'sql'                     => "varchar(255) NOT NULL default ''"
 );
 		
