@@ -58,7 +58,7 @@ class Tweet extends \ContentElement
 				$return = '<' . $this->hl . '>' . $this->headline . '</' . $this->hl . '>' . $return;
 			}
 
-			return $return;
+			//return $return;
 		}
 
 		return parent::generate();
