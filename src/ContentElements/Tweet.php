@@ -34,7 +34,7 @@ class Tweet extends \ContentElement
 		if($this->tweet_url)
 		{
 			// Tweet-URL wurde eingetragen
-			$json = file_get_contents('https://publish.twitter.com/oembed?url='.$this->tweet_url);
+			$json = @file_get_contents('https://publish.twitter.com/oembed?url='.$this->tweet_url);
 			$tweet = json_decode($json);
 			$this->html = $tweet->html;
 		}
