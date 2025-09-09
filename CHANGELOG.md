@@ -1,5 +1,9 @@
 # Tweet-Bundle Changelog
 
+## Version 2.0.0 (2025-09-09)
+
+* Add: Abhängigkeit PHP 8
+
 ## Version 1.0.2 (2023-06-23)
 
 * Fix: PHP Warning: file_get_contents(url): failed to open stream: HTTP request failed! HTTP/1.0 404 Not Found in /ContentElements/Tweet.php on line 37
