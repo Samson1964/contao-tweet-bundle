@@ -1,7 +1,14 @@
 {
     "name": "schachbulle/contao-tweet-bundle",
     "type": "contao-bundle",
-    "description": "Tweet für Contao 4",
+    "description": "Inhaltselement zum Einbinden einzelner Tweets.",
+    "keywords": [
+        "contao",
+        "twitter",
+        "tweet",
+        "inhaltselement"
+    ],
+    "homepage": "https://github.com/Samson1964/contao-tweet-bundle",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
